@@ -22,7 +22,7 @@ const Footer = () => {
             <ul className="space-y-2 mb-4">
               <li>
                 <a href="mailto:info@example.com" className="hover:underline">
-                  Cusinaclassica@gmail.com
+                  Classcusin@gmail.com
                 </a>
               </li>
               <li>
@@ -38,7 +38,7 @@ const Footer = () => {
 
         {/* Navigation Links */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Navigation</h3>
+          <h3 className="text-lg font-semibold mb-4 pl-4">Navigation</h3>
           <ul className="space-y-2">
             <li>
               <a href="#home" className="hover:underline">

@@ -2,11 +2,11 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 
 const images = [
-  { src: '/Images/kitchen.jpg', alt: 'Restaurant interior', caption: 'Experience our warm and inviting atmosphere' },
-  { src: '/Images/bar.jpg', alt: 'Signature pasta dish', caption: 'Savor our handmade pasta dishes' },
+  { src: '/Images/kitchen.jpg', alt: 'Restaurant interior', caption: 'Watch our chefs craft culinary masterpieces' },
+  { src: '/Images/bar.jpg', alt: 'Signature pasta dish', caption: 'Explore our curated wine collection' },
   { src: '/Images/happy.jpg', alt: 'Happy customers', caption: 'Join our satisfied guests' },
-  { src: '/Images/waitress.jpg', alt: 'Chef preparing food', caption: 'Watch our chefs craft culinary masterpieces' },
-  { src: '/Images/vip.jpg', alt: 'Wine selection', caption: 'Explore our curated wine collection' },
+  { src: '/Images/waitress.jpg', alt: 'Chef preparing food', caption: '' },
+  { src: '/Images/vip.jpg', alt: 'Wine selection', caption: '' },
 ];
 
 const ImageSlideshow = ({ interval = 5000 }) => {

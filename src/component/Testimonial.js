@@ -61,7 +61,7 @@ const StarRating = ({ rating }) => {
 const Testimonials = () => {
   return (
     <div className="w-full max-w-4xl mx-auto py-10">
-      <h2 className="text-2xl font-bold text-center mb-8">What Our customer's Say</h2>
+      <h2 className="text-2xl font-bold text-center mb-8">What Our customers Say</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="bg-white shadow-lg rounded-lg py-6 px-3 mx-3">
