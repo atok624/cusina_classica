@@ -15,7 +15,7 @@ const Footer = () => {
             loading="lazy"
           ></iframe>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 font-semibold">
           {/* Contact Info */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
@@ -37,8 +37,8 @@ const Footer = () => {
           </div>
 
         {/* Navigation Links */}
-        <div>
-          <h3 className="text-lg font-semibold mb-4 pl-4">Navigation</h3>
+        <div className="font-semibold">
+          <h3 className="text-lg font-semibold mb-4 ">Navigation</h3>
           <ul className="space-y-2">
             <li>
               <a href="#home" className="hover:underline">
@@ -111,7 +111,7 @@ const Footer = () => {
 
         
       </div>
-      <div className="text-center mt-3 py-4 border-t border-gray-700">
+      <div className="text-center mt-3 py-4 border-t border-gray-700 font-semibold">
         <p>
           &copy; {new Date().getFullYear()} Cusina Classica. All rights
           reserved.

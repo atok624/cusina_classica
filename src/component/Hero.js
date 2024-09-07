@@ -48,22 +48,22 @@ const Navbar = () => {
           } transition-all duration-300 ease-in-out`}
         >
           <li className="w-full md:w-auto">
-            <a href="/" className="hover:text-red-500 cursor-pointer transition block text-center py-2 md:py-0">
+            <a href="/" className="hover:text-red-500 cursor-pointer font-bold transition block text-center py-2 md:py-0">
               Home
             </a>
           </li>
           <li className="w-full md:w-auto">
-            <a href="#about" className="hover:text-red-500 cursor-pointer transition block text-center py-2 md:py-0">
+            <a href="#about" className="hover:text-red-500 cursor-pointer font-bold transition block text-center py-2 md:py-0">
               About
             </a>
           </li>
           <li className="w-full md:w-auto">
-            <a href="#menu" className="hover:text-red-500 cursor-pointer transition block text-center py-2 md:py-0">
+            <a href="#menu" className="hover:text-red-500 cursor-pointer font-bold transition block text-center py-2 md:py-0">
               Menu
             </a>
           </li>
           <li className="w-full md:w-auto">
-            <a href="#show" className="hover:text-red-500 cursor-pointer transition block text-center py-2 md:py-0">
+            <a href="#show" className="hover:text-red-500 cursor-pointer transition font-bold block text-center py-2 md:py-0">
               Experience
             </a>
           </li>
