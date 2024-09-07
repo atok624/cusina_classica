@@ -5,8 +5,8 @@ const images = [
   { src: '/Images/kitchen.jpg', alt: 'Restaurant interior', caption: 'Watch our chefs craft culinary masterpieces' },
   { src: '/Images/bar.jpg', alt: 'Signature pasta dish', caption: 'Explore our curated wine collection' },
   { src: '/Images/happy.jpg', alt: 'Happy customers', caption: 'Join our satisfied guests' },
-  { src: '/Images/waitress.jpg', alt: 'Chef preparing food', caption: '' },
-  { src: '/Images/vip.jpg', alt: 'Wine selection', caption: '' },
+  { src: '/Images/waitress.jpg', alt: 'Chef preparing food', caption: 'Delight in our expertly prepared dishes' },
+  { src: '/Images/vip.jpg', alt: 'Wine selection', caption: 'Experience our friendly, attentive, and knowledgeable waitstaff' },
 ];
 
 const ImageSlideshow = ({ interval = 5000 }) => {
@@ -57,8 +57,8 @@ const ImageSlideshow = ({ interval = 5000 }) => {
           alt={images[currentIndex].alt} 
           className="w-full h-screen object-cover rounded-lg shadow-lg"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-primary-900/60 to-transparent rounded-lg"></div>
-        <p className="absolute bottom-4 left-4 right-4 text-white text-lg text-center font-semibold">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-lg"></div>
+        <p className="absolute bottom-4 left-4 right-4 text-white text-lg md:text-xl text-center font-semibold bg-black/50 px-4 py-2 rounded-lg">
           {images[currentIndex].caption}
         </p>
         <button
