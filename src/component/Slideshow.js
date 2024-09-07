@@ -50,7 +50,7 @@ const ImageSlideshow = ({ interval = 5000 }) => {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8" id='show'>
-      <h2 className="text-3xl font-bold text-center mb-6 text-primary-800">Experience Our Italian Cuisine</h2>
+      <h2 className="text-3xl font-bold text-center mb-6 text-primary-800">Experience Cuisine Classica</h2>
       <div className="relative aspect-w-16 aspect-h-9 group">
         <img 
           src={images[currentIndex].src} 
