@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 // Navbar Component with Hamburger Menu
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,12 +10,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-20 bg-black bg-opacity-70">
+    <nav className="fixed top-0 left-0 w-full z-20 bg-black bg-opacity-100">
       <div className="container mx-auto px-6 py-2 flex justify-between items-center">
         {/* Logo */}
         <a href="/">
           <img
-            src="/Images/Black and White Illustrative Home Catering Logo (1).png" // Replace with your logo image path
+            src="/Images/Black and White Illustrative Home Catering Logo (1).png"
             alt="La Tavola Italiana Logo"
             className="w-auto h-[65px] rounded-full"
           />
@@ -23,7 +24,6 @@ const Navbar = () => {
         {/* Hamburger Icon for Mobile */}
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
-            {/* Hamburger Icon */}
             <svg
               className="w-6 h-6"
               fill="none"
@@ -43,27 +43,27 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <ul
-          className={`md:flex space-x-6 text-white md:static absolute top-full left-0 w-full md:w-auto md:bg-transparent bg-black bg-opacity-90 md:space-y-0 space-y-6 p-6 md:p-0 transform md:translate-y-0 ${
-            isOpen ? "translate-y-0" : "-translate-y-full hidden"
-          } transition-transform duration-300 ease-in-out`}
+          className={`md:flex md:space-x-6 text-white md:static absolute top-full left-0 w-full md:w-auto md:bg-transparent bg-black bg-opacity-90 md:space-y-0 space-y-4 py-4 md:py-0 ${
+            isOpen ? "flex flex-col items-center" : "hidden"
+          } transition-all duration-300 ease-in-out`}
         >
-          <li>
-            <a href="/" className="hover:text-red-500 cursor-pointer transition">
+          <li className="w-full md:w-auto">
+            <a href="/" className="hover:text-red-500 cursor-pointer transition block text-center py-2 md:py-0">
               Home
             </a>
           </li>
-          <li>
-            <a href="#about" className="hover:text-red-500 cursor-pointer transition">
+          <li className="w-full md:w-auto">
+            <a href="#about" className="hover:text-red-500 cursor-pointer transition block text-center py-2 md:py-0">
               About
             </a>
           </li>
-          <li>
-            <a href="#menu" className="hover:text-red-500 cursor-pointer transition">
+          <li className="w-full md:w-auto">
+            <a href="#menu" className="hover:text-red-500 cursor-pointer transition block text-center py-2 md:py-0">
               Menu
             </a>
           </li>
-          <li>
-            <a href="#show" className="hover:text-red-500 cursor-pointer transition">
+          <li className="w-full md:w-auto">
+            <a href="#show" className="hover:text-red-500 cursor-pointer transition block text-center py-2 md:py-0">
               Experience
             </a>
           </li>
