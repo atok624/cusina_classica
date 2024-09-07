@@ -20,7 +20,7 @@ const testimonials = [
     name: 'Hisu Lee',
     position: 'Korea',
     text: 'The restaurant was clean and well-maintained, which made for a pleasant dining experience.',
-    photo: '/Images/image3.jpg',
+    photo: '/Images/Image3.jpg',
     rating: 3
   },
   {
