@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 const AboutUs = () => {
@@ -17,7 +18,7 @@ const AboutUs = () => {
         <div className="md:w-1/2 md:pl-10">
           <h2 className="font-playfair text-6xl font-bold text-gray-800 mb-6">Our Story</h2>
           <p className="text-gray-600 text-xl leading-relaxed mb-8">
-            At La Cusina Classica, we celebrate the rich traditions of Italian
+            At <span className="text-green-600 font-bold">Cusina Classica</span>, we celebrate the rich traditions of Italian
             cuisine. Our dishes are crafted from family recipes passed down
             through generations, using only the freshest ingredients to deliver
             authentic flavors in every bite. Whether you're here for a casual

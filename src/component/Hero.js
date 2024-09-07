@@ -86,7 +86,7 @@ const Header = () => {
       {/* Hero Content */}
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center text-white">
         <h1 className="text-5xl md:text-6xl font-bold mb-4">
-          Welcome to Cusina Classica
+          Welcome to <span className="text-red-600">Cusina Classica</span>
         </h1>
         <p className="text-xl md:text-2xl mb-6">
           Authentic Italian Flavors in Every Bite
