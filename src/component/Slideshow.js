@@ -55,7 +55,7 @@ const ImageSlideshow = ({ interval = 5000 }) => {
         <img 
           src={images[currentIndex].src} 
           alt={images[currentIndex].alt} 
-          className="w-full h-full object-cover rounded-lg shadow-lg"
+          className="w-full h-screen object-cover rounded-lg shadow-lg"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary-900/60 to-transparent rounded-lg"></div>
         <p className="absolute bottom-4 left-4 right-4 text-white text-lg text-center font-semibold">
