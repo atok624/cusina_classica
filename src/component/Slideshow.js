@@ -5,8 +5,8 @@ const images = [
   { src: '/Images/kitchen.jpg', alt: 'Restaurant interior', caption: 'Watch our chefs craft culinary masterpieces' },
   { src: '/Images/bar.jpg', alt: 'Signature pasta dish', caption: 'Explore our curated wine collection' },
   { src: '/Images/happy.jpg', alt: 'Happy customers', caption: 'Join our satisfied guests' },
-  { src: '/Images/waitress.jpg', alt: 'Chef preparing food', caption: 'Delight in our expertly prepared dishes' },
-  { src: '/Images/vip.jpg', alt: 'Wine selection', caption: 'Experience our friendly, attentive, and knowledgeable waitstaff' },
+  { src: '/Images/waitress.jpg', alt: 'Chef preparing food', caption: 'Delight in our expertly prepared dishes'},
+  { src: '/Images/vip.jpg', alt: 'Wine selection', caption:'Savor premium wines and exquisite dishes'  },
 ];
 
 const ImageSlideshow = ({ interval = 5000 }) => {

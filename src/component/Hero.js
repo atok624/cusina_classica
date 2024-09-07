@@ -93,7 +93,7 @@ const Header = () => {
         </p>
         <a
           href="#book"
-          className="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-8 rounded-full transition duration-300"
+          className="bg-red-500 hover:bg-red-600 text-white text-2xl font-semibold py-3 px-8 rounded-full transition duration-300"
         >
           Book a Table
         </a>
