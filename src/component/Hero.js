@@ -53,18 +53,18 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/menu" className="hover:text-red-500 cursor-pointer transition">
-              Menu
-            </a>
-          </li>
-          <li>
-            <a href="/about" className="hover:text-red-500 cursor-pointer transition">
+            <a href="#about" className="hover:text-red-500 cursor-pointer transition">
               About
             </a>
           </li>
           <li>
-            <a href="/contact" className="hover:text-red-500 cursor-pointer transition">
-              Contact
+            <a href="#menu" className="hover:text-red-500 cursor-pointer transition">
+              Menu
+            </a>
+          </li>
+          <li>
+            <a href="#show" className="hover:text-red-500 cursor-pointer transition">
+              Experience
             </a>
           </li>
         </ul>

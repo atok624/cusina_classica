@@ -45,9 +45,9 @@ const Menu = () => {
               
               {/* Dish Details */}
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-800">{item.name}</h3>
-                <p className="text-gray-600 mb-4">{item.description}</p>
-                <p className="text-gray-800 font-semibold">{item.price}</p>
+                <h3 className="text-xl font-semibold text-black">{item.name}</h3>
+                <p className="text-gray-800 mb-4">{item.description}</p>
+                <p className="text-black font-semibold text-xl">Price: {item.price}</p>
               </div>
             </div>
           ))}
